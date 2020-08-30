@@ -1,0 +1,26 @@
+#about-me-image {
+    width: 40%;
+    height: auto;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.zoom-in {
+    transition: transform .2s;
+}
+
+.zoom-in:hover {
+    transform: scale(1.05);
+}
+
+li .active {
+    color: #007bff!important;
+    text-decoration: underline;
+}
