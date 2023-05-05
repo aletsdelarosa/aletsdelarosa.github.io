@@ -12,7 +12,6 @@ twitter_username: aletsdelarosa
 github_username: aletsdelarosa
 
 remote_theme: jekyll/minima
-theme: minima
 
 minima:
   skin: classic
