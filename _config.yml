@@ -1,0 +1,30 @@
+title: Alex de la Rosa
+
+email: alexdelarosacortes@gmail.com
+
+description: >-
+  This is my personal website where I post mobile related articles and have all my professional information.
+
+url: "https://aletsdelarosa.github.io"
+
+twitter_username: aletsdelarosa
+
+github_username: aletsdelarosa
+
+remote_theme: jekyll/minima
+theme: minima
+
+minima:
+  skin: classic
+  date_format: "%a, %b %-d, %Y"
+  social_links:
+    - { platform: github, user_url: "https://github.com/aletsdelarosa/" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/alexdelarosacortes/" }
+    - { platform: twitter, user_url: "https://twitter.com/aletsdelarosa/" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-tagging-related_posts
+  - jekyll-target-blank
