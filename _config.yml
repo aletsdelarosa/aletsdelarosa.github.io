@@ -1,29 +1,64 @@
+# Site settings
 title: Alex de la Rosa
-
 email: alexdelarosacortes@gmail.com
+url: https://aletsdelarosa.github.io
+description: "I'm Alex de la Rosa, a Software Engineer and iOS Developer."
+keywords: "iOS, Swift, developer, software, engineer"
+skills: "iOS Developer - Software Engineer"
+meta_author: De La Rosa Alex
 
-description: >-
-  This is my personal website where I post mobile related articles and have all my professional information.
+# Google webmaster tools
+google_verify:
 
-url: "https://aletsdelarosa.github.io"
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-twitter_username: aletsdelarosa
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
 
-github_username: aletsdelarosa
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+# disqus_shortname: myshortname
 
-remote_theme: jekyll/minima
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 2c3e50 #80B3FF
+  primary-rgb: "44, 62, 80" #"128,179,255"
+  secondary: 18bc9c #FD6E8A
+  secondary-dark: 0e735a #A2122F
 
-minima:
-  skin: classic
-  date_format: "%a, %b %-d, %Y"
-  social_links:
-    - { platform: github, user_url: "https://github.com/aletsdelarosa/" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/alexdelarosacortes/" }
-    - { platform: twitter, user_url: "https://twitter.com/aletsdelarosa/" }
+# Footer settings
+footer:
+  copyright: Alex de la Rosa
+  location: Location
+  social: Around the Web
+  credits: Credits
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-tagging-related_posts
-  - jekyll-target-blank
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://linkedin.com/in/alexdelarosacortes
+  - title: github
+    url: http://github.com/aletsdelarosa
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Seattle, WA
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
