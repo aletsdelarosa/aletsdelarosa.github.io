@@ -37,7 +37,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-primary-bg-gray {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -45,10 +46,12 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
     overflow: visible;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-primary-bg-gray:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -56,6 +59,7 @@ hr.star-primary:after {
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2em;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 hr.star-light {
@@ -67,13 +71,19 @@ hr.star-light:after {
     background-color: #{{ site.color.primary }};
 }
 
-hr.star-primary {
+hr.star-primary,
+hr.star-primary-bg-gray {
     border-color: #{{ site.color.secondary }};
 }
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
+}
+
+hr.star-primary-bg-gray:after {
+    color: #{{ site.color.secondary }};
+    background-color: #f0f0f0;
 }
 
 .img-centered {
@@ -185,6 +195,10 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+.dark-text {
+    color: rgb(21, 21, 21);
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -244,6 +258,10 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+}
+
+#portfolio {
+    background-color: #F0F0F0;
 }
 
 @media(min-width:767px) {

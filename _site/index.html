@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Alex de la Rosa</title>
@@ -35,13 +35,18 @@
 </head>
 
 
-<body id="page-top" class="index">
-  <!-- Navigation -->
+  <body id="page-top" class="index">
+    <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -57,10 +62,10 @@
           <a href="#page-top"></a>
         </li>
         <li class="page-scroll">
-          <a href="#portfolio">Portfolio</a>
+          <a href="#about">About</a>
         </li>
         <li class="page-scroll">
-          <a href="#about">About</a>
+          <a href="#portfolio">Apps</a>
         </li>
         <li class="page-scroll">
           <a href="#contact">Contact</a>
@@ -71,15 +76,14 @@
   </div>
   <!-- /.container-fluid -->
 </nav>
-
-  <!-- Header -->
+ <!-- Header -->
 <header>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
         <div class="intro-text">
-          <span class="name">Alex de la Rosa</span>
+          <span class="name">Hello! I'm Alex 👋</span>
           <hr class="star-light" />
           <span class="skills">iOS Developer - Software Engineer</span>
         </div>
@@ -87,14 +91,45 @@
     </div>
   </div>
 </header>
-
-  <!-- Portfolio Grid Section -->
+ <!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>About</h2>
+        <hr class="star-primary" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+        <p class="dark-text">
+          I'm a Software Engineer with 6+ years of experience in iOS, mobile and web development,
+          including 3+ years of experience as Software Engineer in Big Tech, 2+ years in a small
+          startup where I was part of a 3 people iOS team where all the responsibilities were
+          divided equally, and 2+ years in my startup where I created and maintain an iOS app, a
+          Flutter app for Android, a web app and the API.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p class="dark-text">
+          I'm Experienced in all the steps needed to create a mobile application, from design to the
+          release in the App Store.
+        </p>
+        <p class="dark-text">
+          I've been doing my own apps since 2019. Some of them are in the App Store, a couple of
+          them are in the process. In the apps section, you will find a list of my apps.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Portfolio Grid Section -->
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
-        <hr class="star-primary">
+        <h2>Apps</h2>
+        <hr class="star-primary-bg-gray" />
       </div>
     </div>
     <div class="portfolio-flex-row">
@@ -106,7 +141,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/cabin.png" class="img-responsive" alt="image-alt">
+          <img src="img/portfolio/simplecalc.png" class="img-responsive" alt="Simple Calc" />
         </a>
       </div>
       
@@ -117,88 +152,24 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/cake.png" class="img-responsive" alt="image-alt">
+          <img src="img/portfolio/simplelist.png" class="img-responsive" alt="Simple List" />
         </a>
       </div>
       
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/circus.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/game.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/submarine.png" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/safe.png" class="img-responsive" alt="image-alt">
+          <img src="img/portfolio/mydigitalmoment.png" class="img-responsive" alt="My Digital Moment" />
         </a>
       </div>
       
     </div>
   </div>
 </section>
-
-  <!-- About Section -->
-<section class="success" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>About</h2>
-        <hr class="star-light">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-lg-offset-2">
-        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
-          source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
-          customization.</p>
-      </div>
-      <div class="col-lg-4">
-        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or
-          a graphic artist looking to share your projects, this template is the perfect starting point! </p>
-      </div>
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <a href="https://github.com/jeromelachaud/freelancer-theme" class="btn btn-lg btn-outline">
-          <i class="fa fa-download"></i> Download Theme
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  
   <!-- Contact Section -->
 <section id="contact">
   <div class="container">
@@ -278,9 +249,6 @@
     </div>
   </div>
 </section>
-
-  
-
   <!-- Footer -->
 <footer class="text-center">
   <div class="footer-above">
@@ -334,47 +302,53 @@
     <i class="fa fa-chevron-up"></i>
   </a>
 </div>
+ <!-- Portfolio Modals -->
 
-  <!-- Portfolio Modals -->
-
-<div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog"
-  aria-hidden="true">
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-1"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
-        <div class="rl">
-        </div>
+        <div class="rl"></div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>Project 1</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="image-alt">
+            <h2>Simple Calc</h2>
+            <hr class="star-primary" />
             
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <p>This app is a simple calculator, similar to the one the iPhone has by default but it supports dark mode.</p>
             
             <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
+                
+              <li>
+                Stack:
+                <strong>Swift, SwiftUI</strong>
               </li>
               
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            <a
+              href="https://apps.apple.com/us/app/simple-calc/id6448763641?itsct=apps_box_badge&amp;itscg=30200"
+              style="
+                display: inline-block;
+                overflow: hidden;
+                border-radius: 13px;
+                width: 250px;
+                height: 83px;
+              "
+              ><img
+                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1683158400"
+                alt="Download on the App Store"
+                style="border-radius: 13px; width: 250px; height: 83px"
+            /></a>
+            <br />
           </div>
         </div>
       </div>
@@ -382,44 +356,51 @@
   </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog"
-  aria-hidden="true">
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-2"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
-        <div class="rl">
-        </div>
+        <div class="rl"></div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>Project 2</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="image-alt">
+            <h2>Simple List</h2>
+            <hr class="star-primary" />
             
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <p>A simple app that hepls you manage all your to-do list. Use the widget to see the top items on your list and the status of them.</p>
             
             <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
+                
+              <li>
+                Stack:
+                <strong>Swift, SwiftUI, WidgetKit</strong>
               </li>
               
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            <a
+              href="https://apps.apple.com/us/app/simple-list-to-do-made-simple/id6448837679?itsct=apps_box_link&itscg=30200"
+              style="
+                display: inline-block;
+                overflow: hidden;
+                border-radius: 13px;
+                width: 250px;
+                height: 83px;
+              "
+              ><img
+                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1683158400"
+                alt="Download on the App Store"
+                style="border-radius: 13px; width: 250px; height: 83px"
+            /></a>
+            <br />
           </div>
         </div>
       </div>
@@ -427,13 +408,17 @@
   </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog"
-  aria-hidden="true">
+<div
+  class="portfolio-modal modal fade"
+  id="portfolioModal-2"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
-        <div class="rl">
-        </div>
+        <div class="rl"></div>
       </div>
     </div>
     <div class="container">
@@ -441,30 +426,33 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h2>Project 3</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="image-alt">
+            <hr class="star-primary" />
             
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+            <p>An app that allows our clients to view the RSVPs for their wedding on the app. And, they can scan the QRs we generate to easier access to the venue.</p>
             
             <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
+                
+              <li>
+                Stack:
+                <strong>Swift, UIKit, AVFoundation</strong>
               </li>
               
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+            <a
+              href="https://apps.apple.com/us/app/my-digital-moment/id1541274546?itsct=apps_box_link&itscg=30200"
+              style="
+                display: inline-block;
+                overflow: hidden;
+                border-radius: 13px;
+                width: 250px;
+                height: 83px;
+              "
+              ><img
+                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1683158400"
+                alt="Download on the App Store"
+                style="border-radius: 13px; width: 250px; height: 83px"
+            /></a>
+            <br />
           </div>
         </div>
       </div>
@@ -472,143 +460,7 @@
   </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 4</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 6</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>Project 5</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-            
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Start Bootstrap</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>April 2014</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>Web Development</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <!-- jQuery Version 1.11.0 -->
+ <!-- jQuery Version 1.11.0 -->
 <script src=" js/jquery-1.11.0.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
@@ -630,6 +482,5 @@
 
 
 
-</body>
-
+  </body>
 </html>

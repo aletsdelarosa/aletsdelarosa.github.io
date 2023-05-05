@@ -1,11 +1,10 @@
 ---
 layout: default
-modal-id: 3
-date: 2014-07-16
-img: circus.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+modal-id: 2
+date: 2023-05-05
+img: mydigitalmoment.png
+alt: My Digital Moment
+category: Swift, UIKit, AVFoundation
+description: An app that allows our clients to view the RSVPs for their wedding on the app. And, they can scan the QRs we generate to easier access to the venue.
+app-store-link: https://apps.apple.com/us/app/my-digital-moment/id1541274546?itsct=apps_box_link&itscg=30200
 ---
