@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-05-05T16:03:47-07:00</updated>
+  <updated>2023-05-05T23:14:24-07:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,11 +20,11 @@
   
   
     <entry>
-      <title type="html">Simple Calc</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Simple Calc" />
+      <title type="html">My Digital Moment</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="My Digital Moment" />
       <published>2023-05-05T00:00:00-07:00</published>
       <updated>2023-05-05T00:00:00-07:00</updated>
-      <id>http://localhost:4000/Simple-Calc</id>
+      <id>http://localhost:4000/My-Digital-Moment</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
       
@@ -40,7 +40,7 @@
       </author>
 
       
-        <category term="Swift, SwiftUI" />
+        <category term="Swift, UIKit, AVFoundation" />
       
 
       
@@ -88,11 +88,11 @@
     </entry>
   
     <entry>
-      <title type="html">Project 3</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 3" />
+      <title type="html">Simple Calc</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Simple Calc" />
       <published>2023-05-05T00:00:00-07:00</published>
       <updated>2023-05-05T00:00:00-07:00</updated>
-      <id>http://localhost:4000/project-3</id>
+      <id>http://localhost:4000/Simple-Calc</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
       
@@ -108,7 +108,7 @@
       </author>
 
       
-        <category term="Swift, UIKit, AVFoundation" />
+        <category term="Swift, SwiftUI" />
       
 
       
